@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<title>TemplateMan</title>
+
+<style>
+
+</style>
+<body>
+<div class="f_tabcon" style="margin-top:0;">
+    <ul id="info_o">
+      
+	</ul>
+</div>
+
+
+<script src="assets/js/templateman.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+	for(var i=0;i<10;i++){
+		var data = {
+			name:'Tom'+i,
+			age:10+i
+		}
+
+		var li = document.createElement('li');
+
+		template('templates/card.html',li,data)
+		//$("#info_o").append(li)
+		document.getElementById("info_o").appendChild(li)
+	}
+	
+
+</script>
+</body>
+</html>
