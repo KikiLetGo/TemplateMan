@@ -1,7 +1,7 @@
 # TemplateMan
 Pure Html template componentization lib, help you reuse the components in html page
 
-一个纯粗的前端模版组件化库，帮助你在html页面重用你的组件
+一个纯粹的前端模版组件化库，帮助你在html页面重用你的组件
 
 You may create some view in html project before, and you want to reuse them in other
 places, it's very simple in nodejs, jsp, asp, php.... 
